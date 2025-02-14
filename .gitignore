@@ -1,5 +1,4 @@
 # path
-*.dSYM
 runWorkSpace/
 # Compiled Object files
 *.slo
