@@ -1,3 +1,5 @@
+# path
+*.dSYM
 # Compiled Object files
 *.slo
 *.lo
