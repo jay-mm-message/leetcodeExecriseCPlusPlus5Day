@@ -1,6 +1,6 @@
 # path
 *.dSYM
-./runWorkSpace/*
+./runWorkSpace
 # Compiled Object files
 *.slo
 *.lo
