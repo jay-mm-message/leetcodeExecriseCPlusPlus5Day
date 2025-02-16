@@ -9,6 +9,7 @@ int main()
      yams[1] = 8;
      yams[2] = 6;
 
+     // test the remote history of git
      int yam_costs[3] = {20, 30, 5};
      cout << "The total size of the array yam_cost: " << sizeof(yam_costs) << " bytes.\n";
      cout << "The element size of the yam_costs[0]: " << sizeof(yam_costs[0]) << " bytes.\n";
