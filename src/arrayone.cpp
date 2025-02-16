@@ -9,17 +9,17 @@ int main()
      yams[1] = 8;
      yams[2] = 6;
 
-     int yamcosts[3] = {20, 30, 5};
-     cout << "The total size of the array yamcost: " << sizeof(yamcosts) << " bytes.\n";
-     cout << "The element size of the yamcosts[0]: " << sizeof(yamcosts[0]) << " bytes.\n";
+     int yam_costs[3] = {20, 30, 5};
+     cout << "The total size of the array yam_cost: " << sizeof(yam_costs) << " bytes.\n";
+     cout << "The element size of the yam_costs[0]: " << sizeof(yam_costs[0]) << " bytes.\n";
      
      cout << "Total yams= ";
      cout << yams[0] + yams[1] + yams[2] << endl;
      cout << "The package with " << yams[1] << " yams costs "
-          << yamcosts[1] << " cents per yam." << endl;
+          << yam_costs[1] << " cents per yam." << endl;
 
-     int total = yams[0] * yamcosts[0] + yams[1] * yamcosts[1];
-     total += yams[2] * yamcosts[2];
+     int total = yams[0] * yam_costs[0] + yams[1] * yam_costs[1];
+     total += yams[2] * yam_costs[2];
 
      cout << "The total yam expense is " << total << " cents.\n";
      cout << endl
