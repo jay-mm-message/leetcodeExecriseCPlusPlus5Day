@@ -17,7 +17,7 @@ int main()
   cout << "Enter another kind of feline: ";
   // (cin >> str1).get();  //tiger
   string str1 {"tiger"};
-  
+
   cout << "Here are some felines:\n";
   cout << charr1 << " " << charr2 << " "
        << str1 << " " << str2 << endl;
@@ -26,5 +26,13 @@ int main()
   cout << "The third letter in " << str2 << " is "
        << str2.at(2) << endl;
 
+  string str3 {"lion"};
+  string str4;
+  str4 = str3;
+  cout << "str3: " << str3 << endl;
+  cout << "str4: " << str4 << endl;
+  str4 = "bird";
+  cout << "str3: " << str3 << endl;
+  cout << "str4: " << str4 << endl;
   return 0;
 }
