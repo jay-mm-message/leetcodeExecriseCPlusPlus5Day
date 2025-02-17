@@ -4,14 +4,17 @@ int main()
 {
   using namespace std;
 
-  const int ArSize = 20;
-  char name[ArSize];
-  long money;
-  cout << "Enter your name:\n";
-  cin >> name;
-  cout << "Enter your money:\n";
-  cin >> money;
-  cout << "You " << name << " have " << money << " dollars.\n";
+  cout << "What year was your house built?\n";
+  int year;
+  cin >> year;
+  cin.get();
+  cout << "What is its street address?\n";
+  // 1600 Amphitheatre Parkway Mountain View, CA 94043
+  char address[80];
+  cin.getline(address, 80);
+  cout << "Year built: " << year << endl;
+  cout << "Address: " << address << endl;
+  cout << "Done!\n";
 
   return 0;
 }
