@@ -29,5 +29,6 @@ int main()
          << strlen(charr) << endl;
     cout << "Length of string in str after input: "
          << str.size() << endl;
-    return 0;
+    cout << R"(Jim "King" Tutt uses "\n" instead of endl.)" << '\n';
+         return 0;
 }
