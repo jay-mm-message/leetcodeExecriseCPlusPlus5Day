@@ -6,18 +6,22 @@
 int main()
 {
     using namespace std;
-    char charr[20];
+    const int sz = 20;
+    char charr[sz];
     string str;
 
     cout << "Length of string in str before input: "
          << strlen(charr) << endl;
-    cout << "Length of string in str before ipnut: "
+    cout << "Length of string in str before input: "
          << str.size() << endl;
     cout << "Enter a line of text:\n";
-    cin.getline(charr, 20);
+    //cin.getline(charr, sz);
+    strncpy(charr, "peanut butter", sz);
     cout << "You entered: " << charr << endl;
     cout << "Enter another line of text:\n";
-    getline(cin, str);
+    //getline(cin, str);
+    str = "blueberry jam";
+
     cout << "You entered " << str << endl;
     cout << "Length of string in charr after input: "
          << strlen(charr) << endl;
