@@ -7,8 +7,8 @@ int main()
 {
     using namespace std;
     const int sz = 20;
-    char charr[sz];
-    string str;
+    char charr[sz] {};
+    string str {};
 
     cout << "Length of string in str before input: "
          << strlen(charr) << endl;
