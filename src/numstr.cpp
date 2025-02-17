@@ -6,8 +6,7 @@ int main()
 
   cout << "What year was your house built?\n";
   int year;
-  cin >> year;
-  cin.get();
+  (cin >> year).get(); // read number and newline
   cout << "What is its street address?\n";
   // 1600 Amphitheatre Parkway Mountain View, CA 94043
   char address[80];
