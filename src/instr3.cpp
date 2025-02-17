@@ -15,4 +15,3 @@ int main()
   cout << " for you, " << name << ".\n";
   return 0;
 }
-ß
