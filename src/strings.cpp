@@ -8,7 +8,7 @@ int main()
 
   const int size = 15;
   char name1[size];
-  char name2[size] = "C++";
+  char name2[size] = "C++owboy";
 
   cout << "Howdy! I'm " << name2;
   cout << "! What's your name?\n";
