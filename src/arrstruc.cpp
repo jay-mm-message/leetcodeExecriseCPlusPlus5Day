@@ -9,7 +9,7 @@ struct inflatable
 int main()
 {
   using namespace std;
-  inflatable guest[2] = {ß
+  inflatable guest[2] = {
       {"Bambi", 0.5, 21.99},
       {"Godzilla", 2000, 565.99}};
 
