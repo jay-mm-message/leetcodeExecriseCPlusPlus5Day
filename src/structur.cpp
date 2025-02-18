@@ -55,5 +55,16 @@ int main()
     cout << "Company employee: " << employ.name 
       << ", with number ID: " << employ.numberId << endl;
   }
+
+  bedge b4 {b3};
+  cout << "Company employee: " << b3.name 
+  << ", with number ID: " << b3.numberId << endl;
+cout << "Company employee: " << b4.name 
+  << ", with number ID: " << b4.numberId << endl;
+  b4.name = "12345";
+  cout << "Company employee: " << b3.name 
+      << ", with number ID: " << b3.numberId << endl;
+  cout << "Company employee: " << b4.name 
+      << ", with number ID: " << b4.numberId << endl;
   return 0;
 }
