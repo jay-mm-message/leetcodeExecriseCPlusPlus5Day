@@ -14,7 +14,7 @@ int main()
       {"Godzilla", 2000, 565.99}};
 
   cout << "The guests " << guest[0].name << " and "
-       << guest[1].name << "\nhave a combined volum of "
+       << guest[1].name << "\nhave a combined volume of "
        << guest[0].volume + guest[1].volume << " cubic feet.\n";
 
   return 0;
