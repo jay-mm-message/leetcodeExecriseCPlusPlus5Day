@@ -49,7 +49,7 @@ int main()
       << ", with number ID: " << b3.numberId << endl;
 
   cout << endl;
-  bedge employs[] {{1, "Ellie"}, {2, "Susan"}, {3, "Sandy"}, {4, "Linda"}};
+  bedge employs[] {{1, "Ellie"}, {}, {2, "Susan"}, {3, "Sandy"}, {4, "Linda"}, {}};
   for (bedge employ : employs)
   {
     cout << "Company employee: " << employ.name 
