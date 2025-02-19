@@ -3,8 +3,9 @@
 int main()
 {
   using namespace std;
-  int donuts = 6;
   double cups = 4.5;
+  int donuts = 6;
+
 
   cout << "donuts value= " << donuts;
   cout << " and donuts address = " << &donuts << endl;
