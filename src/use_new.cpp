@@ -34,5 +34,16 @@ int main()
     delete pd;
     pd = nullptr;
   }
+
+  const int psomeSz = 10;
+  int *psome = new int [psomeSz];
+
+  if (psome != nullptr) {
+    cout << "freeing memory of psome" << endl;
+    delete [] psome;
+    psome = nullptr;
+  } else {
+    cout << "psome is nullptr" << endl;
+  }
   return 0;
 }
