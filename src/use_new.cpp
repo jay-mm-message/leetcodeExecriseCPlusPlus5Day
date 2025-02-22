@@ -23,5 +23,16 @@ int main()
   cout << "size of *pt= " << sizeof(*pt) << endl;
   cout << "size of pd= " << sizeof(pd) << endl;
   cout << "size of *pd= " << sizeof(*pd) << endl;
+
+  if (pt != nullptr) {
+    cout << "freeing memory of pt" << endl;
+    delete pt;
+    pt = nullptr;
+  }
+  if (pd != nullptr) {
+    cout << "freeing memory of pd" << endl;
+    delete pd;
+    pd = nullptr;
+  }
   return 0;
 }
