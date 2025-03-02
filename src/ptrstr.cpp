@@ -16,15 +16,19 @@ int main()
   ps = animal;
   cout << ps << "!\n";
   cout << "Before using strcpy():\n";
-  cout << animal << " at " << (int *)animal << endl;
-  cout << ps << " at " << (int *)ps << endl;
+  cout << animal << " at " << (int *)animal 
+              << ", value: " << animal << endl;
+  cout << ps << " at " << (int *)ps 
+              << ", value: " << ps <<  endl;
 
   ps = new char[strlen(animal) + 1];
   strcpy(ps, animal);
 
   cout << "After using strcpy();\n";
-  cout << animal << " at " << (int *)animal << endl;
-  cout << ps << " at " << (int *)ps << endl;
+  cout << animal << " at " << (int *)animal 
+              << ", value: " << animal << endl;
+  cout << ps << " at " << (int *)ps 
+              << ", value: " << ps <<  endl;
   delete[] ps;
   return 0;
 }
