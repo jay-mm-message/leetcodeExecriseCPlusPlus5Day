@@ -5,16 +5,13 @@ int main()
 {
   using namespace std;
   char animal[20] = "bear";
-  const char *bird = "wren";
   char *ps;
-
-  cout << animal << " adn " << bird << "\n";
 
   cout << "Enter a kind of animal: ";
   cin >> animal;
 
   ps = animal;
-  cout << ps << "!\n";
+  
   cout << "Before using strcpy():\n";
   cout << animal << " at " << (int *)animal 
               << ", value: " << animal << endl;
