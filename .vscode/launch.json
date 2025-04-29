@@ -5,7 +5,6 @@
             "name": "C/C++: g++-14 build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            //"program": "${fileDirname}/runWorkSpace/${fileBasenameNoExtension}",
             "program": "${fileDirname}/../runWorkSpace/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
@@ -16,7 +15,9 @@
             ],
             "externalConsole": true,
             "MIMode": "lldb",
-            "preLaunchTask": "C/C++: g++-14 build active file"
+            "preLaunchTask": "C/C++: g++-14 build active file",
+            "pythonPath": "/usr/bin/python3"  // 設置 Python 解釋器路徑"
         }
     ]
 }
+
