@@ -9,7 +9,7 @@ int main()
   int inseam = 42;
 
   cout << "Monsieur cuts a striking figure!" << endl;
-  cout << "chest= " << chest << " (deciimal for 42)" << endl;
+  cout << "chest= " << chest << " (decimal for 42)" << endl;
 
   cout << hex;
   cout << "waist= " << waist << " (hexadecimal for 42)" << endl;
