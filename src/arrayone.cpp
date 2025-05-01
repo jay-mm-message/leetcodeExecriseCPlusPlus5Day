@@ -5,12 +5,12 @@ int main()
 {
      using namespace std;
      int yams[3];
-     yams[0] = 7;
-     yams[1] = 8;
-     yams[2] = 6;
+     yams[0] = 1;
+     yams[1] = 2;
+     yams[2] = 3;
 
      // test the remote history of git
-     int yam_costs[3] = {20, 30, 5};
+     int yam_costs[3] = {5, 4, 1};
      cout << "The total size of the array yam_cost: " 
           << sizeof(yam_costs) << " bytes.\n";
      cout << "The element size of the yam_costs[0]: " 
