@@ -11,8 +11,10 @@ int main()
 
      // test the remote history of git
      int yam_costs[3] = {20, 30, 5};
-     cout << "The total size of the array yam_cost: " << sizeof(yam_costs) << " bytes.\n";
-     cout << "The element size of the yam_costs[0]: " << sizeof(yam_costs[0]) << " bytes.\n";
+     cout << "The total size of the array yam_cost: " 
+          << sizeof(yam_costs) << " bytes.\n";
+     cout << "The element size of the yam_costs[0]: " 
+          << sizeof(yam_costs[0]) << " bytes.\n";
 
      cout << "Total yams= ";
      cout << yams[0] + yams[1] + yams[2] << endl;
@@ -44,7 +46,8 @@ int main()
      int exercise2[3]{1, 2, 3};
      for (int elem = 0; elem < sizeof(exercise2) / sizeof(exercise2[0]); elem++)
      {
-          cout << "exercise2[" << elem << "] = " << exercise2[elem] << endl;
+          cout << "exercise2[" << elem << "] = " 
+               << exercise2[elem] << endl;
      }
 
      char dogT[2] = {'a', '\0'};
@@ -53,6 +56,7 @@ int main()
      cout << "The string of dog is: " << dog << endl;
      // char cat[8] = {'f', 'a', 't', 'e', 's', 's', 'a', '\0'};
      char cat[8] = {'f', '\0', 't', 'e', '\0', 's', 'a', '\0'};
-     cout << "The string of cat is: " << cat << ", length: " << strlen(cat) << endl;
+     cout << "The string of cat is: " << cat 
+          << ", length: " << strlen(cat) << endl;
      return 0;
 }
